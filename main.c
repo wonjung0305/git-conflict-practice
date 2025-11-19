@@ -20,11 +20,11 @@ void performCalculation(int x, int y)
   displayResult(result);
 }
 void performCalculation2(int x, int y)
- {
-    printf("Calculating %d to the power of %d...\n", x, y);
-    int result = pow(x, y);
-    displayResult(result);
- }
+{
+  printf("Calculating %d to the power of %d...\n", x, y);
+  int result = pow(x, y);
+  displayResult(result);
+}
 void handleUserInput()
 {
   int a, b;
